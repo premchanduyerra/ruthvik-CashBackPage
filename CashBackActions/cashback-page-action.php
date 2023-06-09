@@ -1,13 +1,17 @@
  
 
 <?php
-//$uid= $_GET['uid']; 
+ 
 $uid= $_POST['uid_hidden'];
 $name= $_POST['name'];
 $email= $_POST['email'];
 $phone= $_POST['phone'];
 $compId=$_POST['compId_hidden'];
- 
+// $uid= 'g3lltYOyQ*jAEdiNTQXBxg';
+// $name= 'name';
+// $email= 'prem@gmail.com';
+// $phone= '9999999999';
+// $compId='133';
 ?>
  
 
@@ -142,6 +146,14 @@ body
 #prodSpecification td{
   width:50%;
 }
+
+/* #total_div  div .card{
+  width:1098px !important;
+  margin-right:398px;
+  transform:translatex(192px) translatey(105px);
+} */
+
+
 </style>
 
 
@@ -156,7 +168,7 @@ body
     var compId1 ='<?php echo $compId; ?>'
 
     
-   // alert(uid1)
+    alert(uid1)
  
 
   //  var jsonBody= JSON.stringify({

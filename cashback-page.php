@@ -58,7 +58,7 @@ $.ajax({
           $("#form_div").show();
           $("#responseMessage").html(obj.responseMessage)
           $("#compId_hidden").html(obj.compId)
-          
+          $("#uid_hidden").html(obj.compId)
         }else{
             $("#error").show();
 
@@ -93,9 +93,9 @@ $.ajax({
     <form action="./CashBackActions/cashback-page-action.php" method='post' id='cashBackForm'>
 
        <h1>Basic Details</h1>
-       <input type="hidden"   id='uid_hidden' name='uid_hidden'>
-       <input type="hidden"   id='compId_hidden' name='compId_hidden'>
-      <input type="text" placeholder="Enter Name" id='name' name='name'>
+       <input type="hidden"   id='uid_hidden' name='uid_hidden' value="0">
+       <input type="hidden"   id='compId_hidden' name='compId_hidden' value="0">
+      <input type="text" placeholder="Enter Name" id='name' name='name' value="0">
       <input type="email" placeholder="Enter Email" id='email' name='email'>
       <input type="text" placeholder="Enter Paytm Phone No" id='phone' name='phone' maxlength='10'>
       <br><br>

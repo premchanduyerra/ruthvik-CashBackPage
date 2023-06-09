@@ -182,3 +182,8 @@ body {
   color: #babdcb;
   font-size: 12px;
 }
+
+#cashBackForm button{
+  padding-right: 0px;
+  transform: translatex(16px) translatey(0px); 
+}
