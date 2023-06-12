@@ -168,7 +168,7 @@ body
     var compId1 ='<?php echo $compId; ?>'
 
     
-    alert(uid1)
+    //alert(uid1)
  
 
   //  var jsonBody= JSON.stringify({
